@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    min-height: 100vh;
+    background-image: url(4k-Wallpaper-Cool-scaled.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game {
+    width: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(9px);
+}
+
+.game:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+    backdrop-filter: blur(9px);
+}
+
+.game-info {
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    backdrop-filter: blur(9px);
+}
+
+.game-info h2 {
+    margin-top: 0;
+}
+
+.game-info p {
+    margin-bottom: 0;
+}
+
+</style>
+<body>
+    <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="#">Valizada Game</a></div>
+          <label for="check" class="checkbox">
+            
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="index.html">Əsas Səhifə</a></li>
+            <li><a href="game.html">Oyunlar</a></li>
+            <li><a href="login.html">Giriş</a>
+            <li><a href="register.html">Qeydiyyat</a></li>
+            </li>
+            
+          
+        </div>
+      </nav>
+    <div class="game-list">
+        <div class="game">
+            <img src="pubg-png-pubg-logo-png-pubg-logo-43-min.png" alt="Game 1">
+            <div class="game-info">
+                <h2>PUBG</h2>
+                <p>Həyatta qalma oyunu</p>
+            </div>
+        </div>
+        <div class="game">
+            <img src="valorant-logo-valorant-icon-transparent-free-png.webp" alt="Game 2">
+            <div class="game-info">
+                <h2>Valorant</h2>
+                <p>FPS oyunu</p>
+            </div>
+        </div>
+        <div class="game">
+            <img src="debifo0-4bc93596-9edf-4c8a-b631-0445318d0df0.png" alt="Game 1">
+            <div class="game-info">
+                <h2>Grand Theft Auto V</h2>
+                <p>Açıq dünya oyunu</p>
+            </div>
+        </div>
+        <div class="game">
+            <img src="forza-horizon-5-logo-B7E05DB263-seeklogo.com.png" alt="Game 2">
+            <div class="game-info">
+                <h2>Forza Horizon 5</h2>
+                <p>Yarış yunu</p>
+            </div>
+        </div>
+        <div class="game">
+            <img src="EA Sports FC 24.png" alt="Game 1">
+            <div class="game-info">
+                <h2>FC 24</h2>
+                <p>Futbol oyunu</p>
+            </div>
+        </div>
+        <div class="game">
+            <img src="toppng.com-adesivo-god-of-war-de-lucas-trujillosna-god-of-war-832x832.png" alt="Game 2">
+            <div class="game-info">
+                <h2>God Of War</h2>
+                <p>Döyüş, Macəra oyunu</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
